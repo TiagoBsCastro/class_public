@@ -114,6 +114,16 @@ public:
         std::vector<double>& t_b,
         std::vector<double>& t_ncdm,
         std::vector<double>& t_tot );
+  void getTkm( double z, 
+        std::vector<double>& k,
+        std::vector<double>& d_cdm,
+        std::vector<double>& d_b,
+        std::vector<double>& d_ncdm,
+        std::vector<double>& d_m,
+        std::vector<double>& t_cdm,
+        std::vector<double>& t_b,
+        std::vector<double>& t_ncdm,
+        std::vector<double>& t_m );
 
  //for BAO
   inline double z_drag() const {return th.z_d;}
